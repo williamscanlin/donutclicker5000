@@ -1,0 +1,189 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#score {
+    font-size: 72px;
+    margin-top: 20px;
+    color: crimson;
+}
+
+.sectionLeft {
+    margin-top: 2em;
+    float: left;
+    width: 60%;
+}
+
+.sectionRight {
+    margin-top: 2em;
+    float: right;
+    width: 35%;
+}
+
+.scoreContainer {
+    background-color: lightgray;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: black;
+    padding: 10px;
+    margin: 30px;
+    border: 15px;
+    border-radius: 15px;
+
+}
+
+#autoClickerEffect {
+    font-size: 48px;
+}
+
+.donut {
+    position: relative;
+    transition: all .2s ease-in-out;
+    width: 350px;
+    height: 350px;
+    background-image: url(Donuts.jpg);
+    background-size: cover;
+    display: inline-block;
+    margin-top: 50px;
+    cursor: pointer; 
+}
+
+.donut:hover { transform: scale(1.10); }
+.donut:active { transform: scale(0.80); }
+
+.eStore {
+    background-color: #b5b5b5;
+    transition: all .2s ease-in-out;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+.eStore:hover {
+    transform: scale(1.05); 
+    background-color: #c7c7c7;
+    transition: all .2s ease-in-out;
+}
+
+.eStore:active {
+    transform: scale(0.95);
+}
+
+.eStore #image {
+    width: 25%
+}
+
+.eStore img {
+    height: 100px;
+    width: 80px;
+}
+
+.eStore nameAndCost p {
+    margin: 0px;
+    width: 60%;
+}
+
+.eStore #nameAndCost p:first-of-type {
+    font-size: 24px;
+}
+
+.eStore #amount {
+    font-size: 48px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 15%;
+}
+
+.unselectable {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;        
+}
+
+.sectionFooter {
+    margin-top: 41%;
+    position:absolute
+}
+
+nav {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display:flex;
+    flex-flow: row;
+    justify-content: center;
+    background: #333;
+    }
+
+nav a {
+    padding: .5em 2em;
+    text-decoration: none;
+    color: #fff;
+    }
+        
+nav a:hover{
+            background-color: #666;
+        }
+        
+section {
+            margin: 1em 0;
+            padding-top: 3em;
+            min-height: 20em;
+        }
+        
+        section > p {
+            margin: 1em 0;
+        }
+.dropbtn {
+            background-color: #333;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+          }
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #333;
+  }
